@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int x=1323;
+    int *y=&x;
+    int **z=&y;
+    cout<<"The first one is "<<endl;
+    cout<<z<<endl;
+    cout<<&y<<endl;
+    cout<<"the second one is"<<endl;
+    cout<<*z<<endl;
+    cout<<&x<<endl;
+    cout<<y<<endl;
+    cout<<"The third one example is "<<endl;
+    cout<<**z<<endl;
+    cout<<x<<endl;
+    cout<<*y<<endl;
+return 0;
+}
